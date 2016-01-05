@@ -22,7 +22,7 @@ void setup() {
 
 void loop() {
   if (millis() % (1000 / starRate) == 0) {
-    leds[random(22)] = CHSV(0, 0, 100); // create white stars
+    leds[random(NUM_LEDS)] = CHSV(0, 0, 100); // create white stars
   }
 
   if (millis() % (1000 / decayRate) == 0) {
