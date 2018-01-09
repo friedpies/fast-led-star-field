@@ -1,4 +1,5 @@
 // FastLED animation that randomly flashes "stars" and fades out over time
+// by Kenneth Marut
 
 #include <FastLED.h>
 
